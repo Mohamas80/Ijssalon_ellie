@@ -1,3 +1,5 @@
+from algemene_functie import mijn_functie_2
+
 from helper import decoreer
 
 def print_aanbieding():
@@ -23,5 +25,6 @@ def print_aanbieding():
         else:
             print(el.lower())
 
-decoreer("Aanbieding")
+decoreer("aanbieding")
+mijn_functie_2("aanbieding")
 print_aanbieding()
